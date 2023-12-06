@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    background: linear-gradient(to bottom, #ffffff, #87ceeb);
+    background-size: 100% 100%;
+    
+}
+
+.div-titulo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-titulo h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background: -webkit-linear-gradient(270deg, #9E16C7, #164AAB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    text-shadow: 1px 1px 1px #8758A6, -1px -1px 1px #F1DEFE;
+
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display:inline;
+    justify-content: center;
+}
+
+/* ESTILOS FORMULARIO */
+.contenedor .div-formulario {
+    width: 30%;
+    height: 40%;
+    margin: 15px 15px;
+    background-color: #046DAF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px #8758A6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    
+}
+
+/* ESTILOS LISTADO */
+.contenedor-listado{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 117px;
+}
+
+.contenedor-listado .div-listado {
+    width: 70%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: #046DAF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px #8758A6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-listado .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor-listado .div-listado .div-empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 15px;
+}
+
+.contenedor-listado .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+#usuario, #contrasena, #email, #btnAgregar{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-editar {
+    background-color: #F1DEFE;
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e;
+}
+
+.btn-eliminar {
+    background-color: #8758A6;
+    font-family: 'Poppins', sans-serif;
+
+}
